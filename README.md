@@ -11,6 +11,9 @@ This repository contains a comprehensive simulation framework for evaluating and
 
 <img width="1130" alt="Screenshot 2025-04-30 at 10 04 38 AM" src="https://github.com/user-attachments/assets/bbf58da3-f5b2-4a59-ba99-b20194b8cd31" />
 
+This simulation is run and tested using the following toy example:<br>
+"...the distribution of different characteristics of the batch picking operation where the average number of batches in the systemat any given time varies between 500 and 2,300 with batch size ranging from 1 to 10. On average, 38% of thebatches consist of 10 orders, the maximum allowable size. Daily number of batches is roughly constant, where66% of the batches are created during morning shift from 5:00 a.m. to 1:00 p.m. On average, a batch consists ofsix orders, 11 distinct SKUs, and 35 items..."[[1]](#1)
+
 **Key Features**
 
 *Multiple Storage System Types*
@@ -20,7 +23,7 @@ This repository contains a comprehensive simulation framework for evaluating and
 - Cube (Puzzle)-Based Storage (CBS): For high-density grid-based storage with mobile robots
 
 *ABC Storage Classification*
-- Implements multiple ABC storage curves (20/70, 20/90, 20/50, 20/20)
+- Implements multiple ABC storage curves (20/70, 20/90, 20/50, 20/20)[[2]](#2)
 - Simulates how product placement strategies impact picking efficiency
 - Analyzes the effects of different product activity distributions on overall warehouse performance
 
@@ -80,10 +83,20 @@ if __name__ == "__main__":
     # create_interactive_dashboard()
     # analyze_abc_storage_impact()
 ```
-
 *Requirements*
 Python 3.7+, SimPy, NumPy, Matplotlib, Random, GridSpec
 <br>
 
 *License*
 This project is licensed under the MIT License. See [`LICENSE`](./LICENSE)
+
+**References**<br>
+<a id="1">[1]</a>
+Bayram, V., Baloch, G., Gzara, F., & Elhedhli, S. (2022). 
+Optimal order batching in warehouse management: A data-driven robust approach.
+*INFORMS Journal on Optimization*, 4(3), 278–303.
+
+<a id="2">[2]</a> 
+Yu, Y., deKoster, R. B., & Guo, X (2015). 
+Class‐based storage with a finite number of items: Using more classes is not always better. 
+*Production and Operations Management*, 24(8), 1235-1247.
