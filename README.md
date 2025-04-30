@@ -1,7 +1,7 @@
 # Automated-Warehouse-DES
 
 **Overview**<br>
-This repository contains a comprehensive simulation framework for evaluating and optimizing various automated storage and retrieval systems (AS/RS) in warehouse environments. The simulation models different warehouse configurations, storage strategies, and operational policies to provide insights into throughput, efficiency, and cost-effectiveness.
+This repository contains a comprehensive discrete-event simulation framework for evaluating and optimizing various automated storage and retrieval systems (AS/RS) in warehouse environments. The simulation models different warehouse configurations, storage strategies, and operational policies to provide insights into throughput, efficiency, and cost-effectiveness.
 
 **Technical Details**
 - Built with Python using SimPy for discrete event simulation
