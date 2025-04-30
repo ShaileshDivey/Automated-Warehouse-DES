@@ -12,7 +12,7 @@ This repository contains a comprehensive simulation framework for evaluating and
 <img width="1130" alt="Screenshot 2025-04-30 at 10 04 38 AM" src="https://github.com/user-attachments/assets/bbf58da3-f5b2-4a59-ba99-b20194b8cd31" />
 
 This simulation is run and tested using the following toy example:<br>
-"...the distribution of different characteristics of the batch picking operation where the average number of batches in the systemat any given time varies between 500 and 2,300 with batch size ranging from 1 to 10. On average, 38% of thebatches consist of 10 orders, the maximum allowable size. Daily number of batches is roughly constant, where66% of the batches are created during morning shift from 5:00 a.m. to 1:00 p.m. On average, a batch consists ofsix orders, 11 distinct SKUs, and 35 items..."[[1]](#1)
+"...the distribution of different characteristics of the batch picking operation where the average number of batches in the system at any given time varies between 500 and 2,300 with batch size ranging from 1 to 10. On average, 38% of the batches consist of 10 orders, the maximum allowable size. Daily number of batches is roughly constant, where 66% of the batches are created during morning shift from 5:00 a.m. to 1:00 p.m. On average, a batch consists of six orders, 11 distinct SKUs, and 35 items..."[[1]](#1)
 
 **Key Features**
 
