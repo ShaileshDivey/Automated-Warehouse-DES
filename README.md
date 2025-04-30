@@ -20,7 +20,7 @@ This simulation is run and tested using the following toy example:<br>
 - Unit-Load AS/RS: For handling large loads on pallets
 - Miniload AS/RS: For handling smaller items in totes or bins
 - Shuttle-Based Storage and Retrieval Systems (SBS/RS): For high-density storage with horizontal and vertical transport
-- Cube (Puzzle)-Based Storage (CBS): For high-density grid-based storage with mobile robots
+- Cube-Based Storage: For high-density grid-based storage with mobile robots
 
 *ABC Storage Classification*
 - Implements multiple ABC storage curves (20/70, 20/90, 20/50, 20/20)[[2]](#2)
