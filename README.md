@@ -9,6 +9,20 @@ This repository contains a comprehensive discrete-event simulation framework for
 - Implements realistic modeling of mechanical constraints and operational uncertainties
 - Validated against real-world warehouse operation patterns
 
+  *Getting Started*
+1.	Clone this repository
+2.	Install required dependencies: pip install -r requirements.rtf
+3.	Run the interactive dashboard: python Automated_Warehouse_Sim.py
+4.	To run the ABC storage analysis instead, edit the main execution section at the bottom of the file:<br> 
+```python
+if __name__ == "__main__":
+    # Uncomment one of the following to run specific functions
+    # create_interactive_dashboard()
+    # analyze_abc_storage_impact()
+```
+*Requirements*
+Python 3.7+, SimPy, NumPy, Matplotlib, Random, GridSpec
+
 <img width="1130" alt="Screenshot 2025-04-30 at 10 04 38 AM" src="https://github.com/user-attachments/assets/bbf58da3-f5b2-4a59-ba99-b20194b8cd31" />
 
 This simulation is run and tested using the following toy example:<br>
@@ -71,21 +85,6 @@ This simulation framework can be used for:
 5.	Performance Forecasting: Model how the system will perform under varying demand patterns
 6.	Cost Analysis: Calculate total operational costs across different configurations
 7.	Research and Education: Study warehouse automation concepts and principles
-
-*Getting Started*
-1.	Clone this repository
-2.	Install required dependencies: pip install -r requirements.txt
-3.	Run the interactive dashboard: python Automated_Warehouse_Sim.py
-4.	To run the ABC storage analysis instead, edit the main execution section at the bottom of the file:<br> 
-```python
-if __name__ == "__main__":
-    # Uncomment one of the following to run specific functions
-    # create_interactive_dashboard()
-    # analyze_abc_storage_impact()
-```
-*Requirements*
-Python 3.7+, SimPy, NumPy, Matplotlib, Random, GridSpec
-<br>
 
 *License*
 This project is licensed under the MIT License. See [`LICENSE`](./LICENSE)
