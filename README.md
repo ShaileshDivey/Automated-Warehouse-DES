@@ -20,10 +20,10 @@ This simulation is run and tested using the following toy example:<br>
 - Unit-Load AS/RS: For handling large loads on pallets
 - Miniload AS/RS: For handling smaller items in totes or bins
 - Shuttle-Based Storage and Retrieval Systems (SBS/RS): For high-density storage with horizontal and vertical transport
-- Cube-Based Storage: For high-density grid-based storage with mobile robots
+- Cube-Based Storage: For high-density grid-based storage with mobile robots [[2]](#2)
 
 *ABC Storage Classification*
-- Implements multiple ABC storage curves (20/70, 20/90, 20/50, 20/20)[[2]](#2)
+- Implements multiple ABC storage curves (20/70, 20/90, 20/50, 20/20)[[3]](#3)
 - Simulates how product placement strategies impact picking efficiency
 - Analyzes the effects of different product activity distributions on overall warehouse performance
 
@@ -97,6 +97,11 @@ Optimal order batching in warehouse management: A data-driven robust approach.
 *INFORMS Journal on Optimization*, 4(3), 278–303.
 
 <a id="2">[2]</a> 
+Gue, K. R., & Kim, B. S. (2007). 
+Puzzle‐based storage systems. 
+*Naval Research Logistics (NRL)*, 54(5), 556-567.
+
+<a id="3">[3]</a> 
 Yu, Y., deKoster, R. B., & Guo, X (2015). 
 Class‐based storage with a finite number of items: Using more classes is not always better. 
 *Production and Operations Management*, 24(8), 1235-1247.
