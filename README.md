@@ -9,7 +9,7 @@ This repository contains a comprehensive discrete-event simulation framework for
 - Implements realistic modeling of mechanical constraints and operational uncertainties
 - Validated against real-world warehouse operation patterns
 
-  *Getting Started*<br>
+*Getting Started*<br>
 1.	Clone this repository
 2.	Install required dependencies: pip install -r requirements.rtf
 3.	Run the interactive dashboard: python Automated_Warehouse_Sim.py
