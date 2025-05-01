@@ -8,7 +8,7 @@ This repository contains a comprehensive discrete-event simulation framework for
 - Matplotlib for visualization and interactive dashboard
 - Implements realistic modeling of mechanical constraints and operational uncertainties
 - Validated against real-world warehouse operation patterns
-
+<br>
   *Getting Started*
 1.	Clone this repository
 2.	Install required dependencies: pip install -r requirements.rtf
@@ -20,7 +20,7 @@ if __name__ == "__main__":
     # create_interactive_dashboard()
     # analyze_abc_storage_impact()
 ```
-*Requirements*
+*Requirements*<br>
 Python 3.7+, SimPy, NumPy, Matplotlib, Random, GridSpec
 
 <img width="1130" alt="Screenshot 2025-04-30 at 10 04 38 AM" src="https://github.com/user-attachments/assets/bbf58da3-f5b2-4a59-ba99-b20194b8cd31" />
